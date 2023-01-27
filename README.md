@@ -20,7 +20,7 @@ oh and also this is pretty important, if you dont have ffmpeg already installed 
 
 and dont delete files specifically the ones called audio and video if they appear in the folder (its literally the audio and video of your video before its slapped together using ffmpeg so leave em alone lol).
 
-the finished video/audio will automatically just be dumped into the same place the script is in, so because it comes in the folder if you run it in there it will just output the finished video in there (which is fine but if you REALLY want to have it spit it somewhere else then look for all the code parts that look like ```"./{0}.mp4".format(title)``` and for all of them (there should only be 2) change ./ to your desired filepath, for example for desktop it will look something like ```C:/Users/YourProfileName/Desktop/{0}.mp4```).
+the finished video/audio will automatically just be dumped into the same place the script is in, so because it comes in the folder if you run it in there it will just output the finished video in there (which is fine but if you REALLY want to have it spit it somewhere else then look for all the code parts that look like ```"./{0}.mp4".format(title)``` and for all of them (there should only be 3) change ./ to your desired filepath, for example for desktop it will look something like ```C:/Users/YourProfileName/Desktop/{0}.mp4```).
 
 i recommend leaving it in its own folder for safety reasons, otherwise anything called video or audio in the same working directory it risks overwriting or deleting (it has no safe guards or typical error handling it doesnt even work sometimes) but if you leave it in its folder and run it then all will be good.
 
