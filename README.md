@@ -16,7 +16,7 @@ into a command prompt and that should work
 
 I recommend running this in the latest version of python (3.11 as of writing) since i had issues with it working in older versions.
 
-oh and also this is pretty important, if you dont have ffmpeg already installed in your PATH on your computer you will need to include the exe file in the same working directory, luckily i have done this for you so you dont need to lift a finger in that aspect, just dont remove it because otherwise 1080p video downloading simply wont work.
+oh and also this is pretty important, if you dont have ffmpeg already installed in your PATH on your computer you will need to include the exe file in the same working directory, you can download it from https://ffmpeg.org/ i literally cannot include it for you the exe is 100mb, github only lets me upload 25mb, dont worry its not hard, but if you dont plan to download 1080p videos you wont need this luckily.
 
 and dont delete files specifically the ones called audio and video if they appear in the folder (its literally the audio and video of your video before its slapped together using ffmpeg so leave em alone lol).
 
