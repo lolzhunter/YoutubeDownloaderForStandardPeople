@@ -14,7 +14,7 @@ into a command prompt and that should work
 
 (if python-ffmpeg or ffmpeg is installed it will interfere with the ffmpeg-python package so to be safe do a pip uninstall on both of those if you run into errors with ffmpeg).
 
-I recommend running this in the latest version of python (3.11 as of writing) since i had issues with it working in older versions.
+I recommend running this in the latest version of python (3.11 as of writing) since i had issues with it working in older versions, and make sure you run it in the default python IDE or console, PyCharm or VScode may not work (at least in my experience).
 
 oh and also this is pretty important, if you dont have ffmpeg already installed in your PATH on your computer you will need to include the exe file in the same working directory, you can download it from https://ffmpeg.org/ i literally cannot include it for you the exe is 100mb, github only lets me upload 25mb, dont worry its not hard, but if you dont plan to download 1080p videos you wont need this luckily.
 
@@ -24,4 +24,4 @@ the finished video/audio will automatically just be dumped into the same place t
 
 i recommend leaving it in its own folder for safety reasons, otherwise anything called video or audio in the same working directory it risks overwriting or deleting (it has no safe guards or typical error handling it doesnt even work sometimes) but if you leave it in its folder and run it then all will be good.
 
-but yeah with all of that said enjoy, btw it can only download videos no shorts but audio and video is enough for general use (you wouldnt believe how long it took me to get the progress percentage thing working it only works in standard python IDE no pycharm sorry)
+but yeah with all of that said enjoy, btw it can only download videos no shorts but audio and video is enough for general use
