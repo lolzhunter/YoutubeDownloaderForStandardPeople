@@ -19,6 +19,7 @@ while True:
     yt = YouTube(URL, on_progress_callback=download_percentage) #creating YouTube object with the progress callback
     yt.check_availability() #checks if its actually a real link before progressing if not then error
     check = True #used later to decide whether or not to do ffmpeg
+    print('''chosen video is: "{0}"'''.format(yt.title))
     title = helpers.safe_filename(yt.title) #windows safe youtube title filename
     ask = bool(input("type literally anything here if you want just the audio "))
     if ask:
